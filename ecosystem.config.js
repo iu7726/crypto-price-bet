@@ -1,6 +1,6 @@
 module.exports = {
     apps: [{
-        name: 'OG Bet On',
+        name: 'Crypto Price Bet',
         script: './dist/index.js',
         args: 'start',
         watch: false,

@@ -1,7 +1,7 @@
 # Crypto currency Betting System
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-%5E4.0-blue)
-![Node.js](https://img.shields.io/badge/Node.js-compatible-green)
+![Node.js](https://img.shields.io/badge/node-%5E14.17.3-brightgreen)
 
 ## Introduction
 This project offers a comprehensive backend solution for a cryptocurrency betting system. It features a series of TypeScript classes designed to manage various aspects of the betting process, from setting up bets and updating statistics to handling the end-to-end workflow of each bet.
