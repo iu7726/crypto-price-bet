@@ -1,0 +1,42 @@
+{
+    "name": "og-bet-on",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "watch": "tsc -w",
+        "start": "node ./dist/index.js",
+        "test": "node ./dist/test.js"
+    },
+    "dependencies": {
+        "@sendgrid/mail": "^7.7.0",
+        "@types/phoenix": "^1.5.4",
+        "@types/redis": "^4.0.11",
+        "@types/ws": "^8.5.3",
+        "amqmodule": "git+https://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@github.com/OG-XYZ/libs-amq-module",
+        "axios": "^1.2.1",
+        "bignumber.js": "^9.0.2",
+        "dotenv": "^10.0.0",
+        "libs-connection-pool": "git+https://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@github.com/OG-XYZ/libs-connection-pool",
+        "libs-job-manager": "git+https://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@github.com/OG-XYZ/libs-job-manager",
+        "moment": "^2.29.3",
+        "node-cron": "^3.0.2",
+        "redis": "^4.1.0",
+        "waait": "^1.0.5",
+        "winston": "^3.4.0",
+        "winston-daily-rotate-file": "^4.5.5",
+        "ws": "^8.9.0",
+        "xml2js": "^0.4.23",
+        "mysql2": "^2.3.3",
+        "sql-template-strings": "^2.2.2"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^17.0.8",
+        "@types/node-cron": "^3.0.1",
+        "@types/xml2js": "^0.4.11",
+        "typescript": "^4.5.4"
+    }
+}
